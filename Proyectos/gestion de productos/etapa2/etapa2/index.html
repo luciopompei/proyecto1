@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="titulocont">
+            <h1>Gestion de productos</h1>
+        </div>
+    </header>
+    <main>
+        <div class="busquedacont">
+            <h4>Busqueda de productos</h4>
+            <input class="s" type="search"  >
+        </div>
+
+        <div class="tablacont">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Nombre</td>
+                        <td>descripcion</td>
+                        <td>Precio</td>
+                        <td>Cantidad</td>
+                        <td>Acciones</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="registrocont">
+            <br>
+            <label class="producto">Producto: </label><input type="text">
+            <br>
+            <label class="descripcion">descripcion: </label><input type="text">
+            <br>
+            <label class="precio">Precio: </label><input type="number">
+            <br>
+            <label class="cantidad">Cantidad: </label><input type="number">
+        </div>
+        <br>
+        <div class="buttoncont"><button class="guardar">Guardar</button></div>
+    </main>
+    <footer>
+        <div class="resumencont">
+            <br>
+            <h2>Resumen</h2>
+            Precio total : <div class="total"></div>
+        </div>
+    </footer>
+</div>  
+<script type="module" src="main.js"></script>   
+</body>
+</html>
